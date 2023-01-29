@@ -1,8 +1,7 @@
 <template>
   <nav>
-    <NavBar>
-      
-    </NavBar>
+    <NavBar title="Gini's Shop">
+  </NavBar>
     <router-link to="/">Gini's shop Online</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
@@ -45,7 +44,7 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
 }
-
+/*
 nav {
   padding: 30px;
 }
@@ -58,4 +57,5 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+*/
 </style>

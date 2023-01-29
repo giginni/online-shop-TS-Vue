@@ -11,7 +11,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'HomeView',
   components: {
-    Hello,
+    HelloHome,
   },
 });
 </script>
@@ -67,3 +67,4 @@ export default defineComponent({
     gap: 1rem 1rem;
   }
   </style>
+  

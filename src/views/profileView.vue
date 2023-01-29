@@ -2,7 +2,7 @@
 <template>
   <div class="home">
     <img alt="Shop logo" src="../assets/shop-in-shop-salesland.png">
-    <HelloWorld msg="Welcome to my shop online!"/>
+    <HelloHome msg="Welcome to my shop online!"/>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   name: 'HomeView',
   components: {
-    Hello,
+    HelloHome,
   },
 });
 </script>
